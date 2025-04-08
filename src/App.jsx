@@ -6,6 +6,7 @@ import './App.css'
 // import Home from './components/Home'
 import NavBar from './components/Navbar'
 import MainRoutes from './components/MainRoutes'
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
           </Routes>
         </div> */}
         <MainRoutes />
+        <Footer />
       </div>
     </>
   )

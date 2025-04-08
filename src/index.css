@@ -5,6 +5,11 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
+  /* background-color: #004e2e95; */
+  background-image: url(https://t3.ftcdn.net/jpg/02/77/30/98/360_F_277309825_h8RvZkoyBGPDocMtippdfe3497xTrOXO.jpg);
+}
+#root {
+  background-color: #004e2e95;
 }
 #container {
   height: 100%;
@@ -17,6 +22,7 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color: #004e2e95;
 }
 #main-section {
   flex-grow: 1;
@@ -28,7 +34,7 @@ body > div {
   justify-content: center;
 }
 .red {
-  background-color: #b05f6d;
+  background-color: #cb344d;
   color: white;
 }
 .blue {
@@ -36,9 +42,23 @@ body > div {
   color: white;
 }
 .home {
-  background-color: #6a6a6a;
+  background-color: #fff098;
   color: white;
 }
 .multi{
-  background: linear-gradient(red, yellow, green, blue)
+  background: linear-gradient(90deg, red, orange, yellow, green, blue)
+}
+h1 {
+  color: rgb(174, 174, 174);
+  text-shadow: 1px 1px 1px black;
+}
+h1:hover{
+  font-family: papyrus, fantasy, sans-serif;
+}
+a {
+  color: snow;
+  text-shadow: 1px 1px 1px black;
+}
+a:hover {
+  color: rgba(200, 255, 255, 0.7);
 }
