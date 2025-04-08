@@ -39,3 +39,6 @@ body > div {
   background-color: #6a6a6a;
   color: white;
 }
+.multi{
+  background: linear-gradient(red, yellow, green, blue)
+}

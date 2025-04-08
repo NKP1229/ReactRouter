@@ -1,32 +1,32 @@
 import { useState } from 'react'
-import { Routes, Route, Link } from "react-router-dom"
+// import { Routes, Route, Link } from "react-router-dom"
 import './App.css'
-import Red from './components/Red'
-import Blue from './components/Blue'
-import Home from './components/Home'
-
+// import Red from './components/Red'
+// import Blue from './components/Blue'
+// import Home from './components/Home'
+import NavBar from './components/Navbar'
+import MainRoutes from './components/MainRoutes'
 function App() {
-  
-
   return (
     <>
       <div id="container">
         <h1>Hello React Router!</h1>
-        <div id="navbar">
+        {/* <div id="navbar">
           <Link to="/">Home</Link>
           <Link to="/blue">Blue</Link>
           <Link to="/red">Red</Link>
-        </div>
-        <div id="main-section">
+        </div> */}
+        <NavBar />
+        {/* <div id="main-section">
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/blue" element={<Blue />}/>
             <Route path="/red" element={<Red />}/>
           </Routes>
-        </div>
+        </div> */}
+        <MainRoutes />
       </div>
     </>
   )
 }
-
 export default App
